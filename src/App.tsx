@@ -5,7 +5,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import io from "socket.io-client";
 import "./index.css";
 
-const SOCKET_SERVER = "http://localhost:3000";
+const SOCKET_SERVER = "https://available-imojean-kahel-82da46e8.koyeb.app";
 
 const App: React.FC = () => {
   const [waitingRoom, setWaitingRoom] = useState<RoomInfo | null>(null);
