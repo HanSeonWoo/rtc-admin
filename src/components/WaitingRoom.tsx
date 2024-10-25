@@ -1,4 +1,3 @@
-import React from "react";
 import { RoomInfo } from "./RoomItem";
 import {
   Card,
